@@ -1,9 +1,5 @@
 //This code does not execute properly. Try to figure out why.
 
-function multiply(a, b){
-    return a * b
-}
-
 /*
 // TODO: Add your tests here
 // Starting from Node 10.x, [Mocha](https://mochajs.org) is used instead of our custom test framework.
@@ -14,7 +10,15 @@ function multiply(a, b){
 // You can use it by requiring:
 //     const assert = require("chai").assert;
 // If the failure output for deep equality is truncated, `chai.config.truncateThreshold` can be adjusted.
+*/
 
+
+function multiply(a, b){
+    return a * b
+}
+
+
+/*
 describe("Solution", function() {
   it("should test for something", function() {
     // Test.assertEquals(1 + 1, 2);
